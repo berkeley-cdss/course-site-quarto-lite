@@ -11,14 +11,17 @@ This repository contains a minimal Quarto-based template for class website. You 
 
 ### Basic Instructions 
 
-1. When department staff notify you that the class repository is ready, go to the GitHub site for the class. For the purposes of these instructions, we'll pretend your repository is at https://github.com/berkeley-stat555/fall-2024.
+1. When department staff notify you that the class repository is ready, go to the GitHub site for the class, e.g., https://github.com/berkeley-stat999/fall-2024.
 
 2. Begin making changes relevant to your course. To edit a file, you can click on a file, then on the edit icon in the upper right and then on `Commit changes` in the upper right when you want to save your changes. In the dialog box that pops up, also simply click on `Commit changes` in the box.
    - If desired, modify the site's metadata and table of contents in `_quarto.yml` to reflect the pages you want on the site.
    - Edit the various Quarto Markdown (qmd) files: `index.qmd` (the home page), `staff.qmd` (information on staff), and `syllabus.qmd` with the content you want.
+   - Make sure to change "999" to your actual class number in `index.qmd` and `_quarto.yml`.
    - Edit the `buttons.yml` file to modify the buttons shown at the top of the home page (or remove the syntax related to buttons in `index.qmd` if you don't want buttons). 
-   - Update `README.md` as needed to refer to your actual class number (see section at bottom of this document for template text).
+   - Update `README.md` to remove these instructions and include basic text referring to your actual class number (see section at bottom of this document for template text).
    - Check the license assigned to the materials posted on the site (by default CC-BY) in `license.qmd` to make sure you are comfortable with it. You're welcome to choose another license that you prefer. If you'd like to not allow commercial use, you might choose CC-BY-NC. You might also consider not allowing derivative works, for example by choosing [CC-BY-ND](https://creativecommons.org/licenses/by-nd/4.0/deed.en) or CC-BY-NC-ND, as chosen for Data 8, but note that this license can make it hard for others to use the material in part or to build upon it. 
+   
+3. We've configured the site so that when you commit changes, some processing gets done remotely to update the website. Please contact us if you notice any problems.
 
 ### More Advanced (Git-Based) Instructions
 
