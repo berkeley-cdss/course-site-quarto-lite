@@ -1,1 +1,1 @@
-Sitemap: https://github.com/berkeley-scf/course-site-quarto-lite/sitemap.xml
+Sitemap: https://berkeley-scf.github.io/course-site-quarto-lite/sitemap.xml

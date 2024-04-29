@@ -11,27 +11,39 @@
     "href": "staff.html",
     "title": "Staff",
     "section": "",
-    "text": "Office hours are subject to change.\n\n\n\nInstructor: Person X x@berkeley.edu Office hours:  - Thursday 3pm-5pm, Evans 309  - Friday 2:00pm-4:30pm, Evans 309\n\n\nGSI: Person Y y@berkeley.edu Office hours: - Monday 11am-12pm, Evans 432 - Tuesday 4pm-5pm, Evans 432 - Wednesday 2pm-3pm, Evans 432 - Friday 12pm-1pm, Evans 432\n\n\nTutor: Person Z z@berkeley.edu Office hours:  - Wednesday 2:30pm - 4:30pm, Evans 434 - Sunday 2pm - 6pm, Zoom\n\n\nTutor: Person W w@berkeley.edu Office hours:  - Wednesday 10am-2pm, Evans 432 - Thursday 3-5pm, Evans 434"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Statistics 999: Generic Statistics Class",
-    "section": "",
-    "text": "Ed\n  DataHub\n  Gradescope\n\nNo matching items\n\n\nInsert text about the class here."
+    "text": "Office hours are subject to change.\n\n\n\nInstructor: Person X x@berkeley.edu Office hours:  - Thursday 3pm-5pm, Evans 309  - Friday 2:00pm-4:30pm, Evans 309\n\n\nGSI: Person Y y@berkeley.edu Office hours: - Monday 11am-12pm, Evans 432 - Tuesday 4pm-5pm, Evans 432 - Wednesday 2pm-3pm, Evans 432 - Friday 12pm-1pm, Evans 432\n\n\nTutor: Person Z z@berkeley.edu Office hours:  - Wednesday 2:30pm - 4:30pm, Evans 434 - Sunday 2pm - 6pm, Zoom\n\n\nTutor: Person W w@berkeley.edu Office hours:  - Wednesday 10am-2pm, Evans 432 - Thursday 3-5pm, Evans 434",
+    "crumbs": [
+      "Staff"
+    ]
   },
   {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "Jump to:"
+    "text": "Jump to:",
+    "crumbs": [
+      "Syllabus"
+    ]
   },
   {
     "objectID": "syllabus.html#about-data-100",
     "href": "syllabus.html#about-data-100",
     "title": "Syllabus",
     "section": "About Data 100",
-    "text": "About Data 100\nCombining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. This intermediate level class bridges between Data 8 and upper division computer science and statistics courses as well as methods courses in other fields. In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​ Through a strong emphasis on data centric computing, quantitative critical thinking, and exploratory data analysis, this class covers key principles and techniques of data science. These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.\n\nGoals\n\nPrepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.\nEnable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques.\nEmpower students to apply computational and inferential thinking to address real-world problems.\n\n\n\nPrerequisites\nWhile we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. Prerequisites will be enforced in Data 100. It is your responsibility to know the material in the prerequisites."
+    "text": "About Data 100\nCombining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. This intermediate level class bridges between Data 8 and upper division computer science and statistics courses as well as methods courses in other fields. In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​ Through a strong emphasis on data centric computing, quantitative critical thinking, and exploratory data analysis, this class covers key principles and techniques of data science. These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.\n\nGoals\n\nPrepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.\nEnable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques.\nEmpower students to apply computational and inferential thinking to address real-world problems.\n\n\n\nPrerequisites\nWhile we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. Prerequisites will be enforced in Data 100. It is your responsibility to know the material in the prerequisites.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Statistics 999: Generic Statistics Class",
+    "section": "",
+    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\n\nNo matching items\n\n\nInsert text about the class here.",
+    "crumbs": [
+      "Home"
+    ]
   }
 ]
