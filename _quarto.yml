@@ -13,8 +13,8 @@ website:
         text: Staff
       - href: syllabus.qmd
         text: Syllabus
-    footer: 
-      <a href="license.qmd">License</a>
+      - href: license.qmd
+        text: License
           
 
 format:
