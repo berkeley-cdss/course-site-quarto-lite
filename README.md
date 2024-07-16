@@ -78,6 +78,8 @@ In addition to standard SCF instructions for setting up the GitHub organization,
    f. Click on **Create Repository**.
 
    g. Change "999" to the actual course number in `index.qmd` and `_quarto.yml`.
+
+   h. Insert `website.site-url` into `_quarto.yml` as "https://statXYZ.berkeley.edu/fall-2024" yml`.
    
 2. Clone the repository and run `quarto publish gh-pages`. This will set up the gh-pages branch and activate the GitHub Pages site. Once that is done, commits made from `github.com/berkeley-statXYZ/fall-2024` will trigger rendering and building the site via GitHub Actions.
 
