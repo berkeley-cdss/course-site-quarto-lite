@@ -2,6 +2,9 @@
 
 This repository contains a minimal Quarto-based template for class website. You can see a preview of it at [https://berkeley-scf.github.io/course-site-quarto-lite](https://berkeley-scf.github.io/course-site-quarto-lite). This template is intended to be forked and altered for other courses.
 
+For instructors: please see [these instructions in the section below](https://github.com/berkeley-scf/course-site-quarto-lite#instructions-for-course-staff) on how to use this repository.
+
+
 ## Capabilities of this Quarto-based Template
 
 - Create a basic class website by modifying content online at github.com or in a GitHub repository.
@@ -88,5 +91,4 @@ In addition to standard SCF instructions for setting up the GitHub organization,
 
 This is the repository for the course website and course material for Statistics XYZ for Fall 2024. 
 The website for which this content is the source materials is available at <https://statXYZ.berkeley.edu/fall-2024>.
-
 
