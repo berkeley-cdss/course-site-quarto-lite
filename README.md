@@ -80,10 +80,14 @@ In addition to standard SCF instructions for setting up the GitHub organization,
 
    f. Click on **Create Repository**.
 
-   g. Change "999" to the actual course number in `index.qmd` and `_quarto.yml`.
+   g. Make a few changes to instantiated content.
 
-   h. Insert `website.site-url` into `_quarto.yml` as "https://statXYZ.berkeley.edu/fall-2024" yml`.
+      1. In `_quarto.yml`, change "999" to the actual course number. Also add `website.google-analytics` based on the `ga_tracking` value in the course overview repository's _config.yml.
+
+      2. In `index.qmd`, change "999" to the actual course number in the `title`. Also change the term in the `subtitle`.
    
+      3. In `syllabus.qmd`, change "999" to the actual course number in the table of contents and headings.
+
 2. Clone the repository and run `quarto publish gh-pages`. This will set up the gh-pages branch and activate the GitHub Pages site. Once that is done, commits made from `github.com/berkeley-statXYZ/fall-2024` will trigger rendering and building the site via GitHub Actions.
 
 
