@@ -97,7 +97,7 @@ In addition to standard SCF instructions for setting up the GitHub organization,
 
    b. In `index.qmd`, change "999" to the actual course number in the `title`. Also change the term in the `subtitle`.
 
-   c. In `syllabus.qmd`, change "999" to the actual course number in the table of contents and headings.
+   c. In `syllabus.qmd`, change "999" to the actual course number in the table of contents and headings. Also set the course description in the title based on that in the course overview repository.
 
    Then commit and push changes. This will trigger a GitHub Actions workflow that will render and publish the site.
 
