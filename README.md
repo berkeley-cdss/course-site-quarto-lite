@@ -101,6 +101,15 @@ In addition to standard SCF instructions for setting up the GitHub organization,
 
    Then commit and push changes. This will trigger a GitHub Actions workflow that will render and publish the site.
 
+
+5. Enable course staff to modify the repo.
+
+   a. Create a team in the course organization. Go to https://github.com/orgs/berkeley-statXYZ/teams and create a team of the form `instructors-fall-2024`. The visibility and notifications settings can be left as default.
+
+   b. Invite one or more course staff to the team.
+
+   c. Enable the team to manage the new repo. Visit https://github.com/berkeley-statXYZ/fall-2024/settings/access choose "Add teams". Type the previously created team name and set the role to `Maintain`. This lets the team members do most things other than managing security or deleting the repo.
+
 ### README Content for Actual Class Repositories
 
 This is the repository for the course website and course material for Statistics XYZ for Fall 2024. 
