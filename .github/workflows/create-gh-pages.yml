@@ -1,4 +1,4 @@
-name: Setup gh-pages branch
+name: Initialize gh-pages branch
 
 on:
   workflow_dispatch:
