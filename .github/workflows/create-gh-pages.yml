@@ -1,0 +1,25 @@
+name: Setup gh-pages branch
+
+on:
+  create:
+
+jobs:
+  setup-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Create empty gh-pages branch
+        run: |
+          git checkout --orphan gh-pages
+          git reset --hard # make sure all changes are committed before running this!
+          git commit --allow-empty -m "Initialising gh-pages branch"
+          git push origin gh-pages
+          git push origin gh-pages
+
+      - name: Delete inherited gh-pages branch if it exists
+        run: |
+          if git ls-remote --exit-code --heads origin gh-pages-inherited; then
+            git push origin --delete gh-pages-inherited
+          fi
