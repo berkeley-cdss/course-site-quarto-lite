@@ -8,7 +8,7 @@ For instructors: please see [these instructions in the section below](https://gi
 ## Capabilities of this Quarto-based Template
 
 - Create a basic class website by modifying content online at github.com or in a GitHub repository.
-   
+
 
 ## Instructions for Course Staff
 
@@ -22,7 +22,7 @@ For instructors: please see [these instructions in the section below](https://gi
    - Edit the `buttons.yml` file to modify the buttons shown at the top of the home page (or remove the syntax related to buttons in `index.qmd` if you don't want buttons). 
    - Update `README.md` to remove these instructions and include basic text referring to your actual class number (see section at bottom of this document for template text).
    - Check the license assigned to the materials posted on the site (by default CC-BY) in `license.qmd` to make sure you are comfortable with it. You're welcome to choose another license that you prefer. If you'd like to not allow commercial use, you might choose CC-BY-NC. You might also consider not allowing derivative works, for example by choosing [CC-BY-ND](https://creativecommons.org/licenses/by-nd/4.0/deed.en) or CC-BY-NC-ND, as chosen for Data 8, but note that this license can make it hard for others to use the material in part or to build upon it. 
-   
+
 3. We've configured the site so that when you commit changes, some processing gets done remotely to update the website. Please contact us if you notice any problems.
 
 ### More Advanced (Git-Based) Instructions
@@ -59,7 +59,7 @@ These instructions have been tested under MacOS.
    If you modify an existing file, you can either do `git add currentfile.md` or include the `-a` flag when you run `git commit` to automatically update files that Git is already keeping track of, e.g., after modifying unit 7 files, `git commit -am "Updated Unit 7"`.
 
 6. Push your changed to GitHub (you might choose to wait to do this until after previewing the site, discussed in the next section).
-   
+
    ```bash
    git push
    ```
@@ -80,12 +80,35 @@ In addition to standard SCF instructions for setting up the GitHub organization,
 
    f. Click on **Create Repository**.
 
-   g. Change "999" to the actual course number in `index.qmd` and `_quarto.yml`.
-
-   h. Insert `website.site-url` into `_quarto.yml` as "https://statXYZ.berkeley.edu/fall-2024" yml`.
-   
 2. Clone the repository and run `quarto publish gh-pages`. This will set up the gh-pages branch and activate the GitHub Pages site. Once that is done, commits made from `github.com/berkeley-statXYZ/fall-2024` will trigger rendering and building the site via GitHub Actions.
 
+3. Create an empty gh-pages branch:
+   ```bash
+      git checkout --orphan gh-pages
+      git reset --hard # make sure all changes are committed before running this!
+      git commit --allow-empty -m "Initialising gh-pages branch"
+      git push origin gh-pages
+      git checkout main
+      ```
+
+4. Make a few changes to instantiated content.
+
+   a. In `_quarto.yml`, change "999" to the actual course number. Also add `website.google-analytics` based on the `ga_tracking` value in the course overview repository's _config.yml.
+
+   b. In `index.qmd`, change "999" to the actual course number in the `title`. Also change the term in the `subtitle`.
+
+   c. In `syllabus.qmd`, change "999" to the actual course number in the table of contents and headings. Also set the course description in the title based on that in the course overview repository.
+
+   Then commit and push changes. This will trigger a GitHub Actions workflow that will render and publish the site.
+
+
+5. Enable course staff to modify the repo.
+
+   a. Create a team in the course organization. Go to https://github.com/orgs/berkeley-statXYZ/teams and create a team of the form `instructors-fall-2024`. The visibility and notifications settings can be left as default.
+
+   b. Invite one or more course staff to the team.
+
+   c. Enable the team to manage the new repo. Visit https://github.com/berkeley-statXYZ/fall-2024/settings/access choose "Add teams". Type the previously created team name and set the role to `Maintain`. This lets the team members do most things other than managing security or deleting the repo.
 
 ### README Content for Actual Class Repositories
 
