@@ -4,7 +4,7 @@ title: "Syllabus"
 
 Jump to:
 
-- [About Statistics 999](#about-stat-999)
+- [About Statistics 999](#about-statistics-999)
   - [Goals](#goals)
   - [Prerequisites](#prerequisites)
 
