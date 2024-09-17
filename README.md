@@ -14,7 +14,7 @@ For instructors: please see [these instructions in the section below](https://gi
 
 ### Basic Instructions 
 
-1. When department staff notify you that the class repository is ready, go to the GitHub site for the class, e.g., https://github.com/berkeley-stat999/fall-2024.
+1. In some units, course staff may create the repositories for you, while in others, department will do that and will then notify you that the class repository is ready. Afterwards, go to the GitHub site for the class, e.g., https://github.com/berkeley-stat999/fall-2024.
 
 2. Begin making changes relevant to your course. To edit a file, you can click on a file, then on the edit icon in the upper right and then on `Commit changes` in the upper right when you want to save your changes. In the dialog box that pops up, also simply click on `Commit changes` in the box.
    - If desired, modify the site's metadata and table of contents in `_quarto.yml` to reflect the pages you want on the site. You may choose to add or remove files (each file having the conent for a separate page).
@@ -33,7 +33,7 @@ These instructions have been tested under MacOS.
 
 2. [Install Git](https://git-scm.com/downloads) if you don't have it installed.
 
-3. When department staff notify you that the class repository is ready, clone it into a local working directory on your computer. For the purposes of these instructions, we'll pretend your repository is at https://github.com/berkeley-stat555/fall-2024.
+3. In some units, course staff may create the repositories for you, while in others, department will do that and will then notify you that the class repository is ready. Afterwards, clone it into a local working directory on your computer. For the purposes of these instructions, we'll pretend your repository is at https://github.com/berkeley-stat555/fall-2024.
    - You can do this from the terminal/commandline or within a Git graphical application (e.g., `GitHub Desktop`).
    - From the terminal it would look like this:
      ```bash
@@ -76,7 +76,7 @@ In addition to standard SCF instructions for setting up the GitHub organization,
 
    c. Do not enable the **Include all branches** checkbox.
 
-   d. Name the repository after academic term, e.g. `fall-2024` and place it into the per-course organization, e.g. `berkeley-statNNN`.
+   d. Name the repository after academic term, e.g. `fall-2024` and place it into the per-course organization, e.g. `berkeley-statNNN`. This may vary by department.
 
    f. Click on **Create Repository**.
 
@@ -112,6 +112,6 @@ In addition to standard SCF instructions for setting up the GitHub organization,
 
 ### README Content for Actual Class Repositories
 
-This is the repository for the course website and course material for Statistics XYZ for Fall 2024. 
-The website for which this content is the source materials is available at <https://statXYZ.berkeley.edu/fall-2024>.
+This is the repository for the course website and course material for Department XYZ for Fall 2024. 
+The website for which this content is the source materials is available at <https://{course hostname}/fall-2024>.
 

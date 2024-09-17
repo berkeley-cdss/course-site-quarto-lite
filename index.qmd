@@ -1,5 +1,5 @@
 ---
-title: "Statistics 999: Generic Statistics Class"
+title: "Department 999: Generic Class"
 subtitle: "UC Berkeley, Spring 2024"
 listing:
   - id: buttons
