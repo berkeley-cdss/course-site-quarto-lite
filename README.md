@@ -1,8 +1,8 @@
 # course-site-quarto-lite
 
-This repository contains a minimal Quarto-based template for class website. You can see a preview of it at [https://berkeley-scf.github.io/course-site-quarto-lite](https://berkeley-scf.github.io/course-site-quarto-lite). This template is intended to be forked and altered for other courses.
+This repository contains a minimal Quarto-based template for class website. You can see a preview of it at [https://berkeley-cdss.github.io/course-site-quarto-lite](https://berkeley-cdss.github.io/course-site-quarto-lite). This template is intended to be forked and altered for other courses.
 
-For instructors: please see [these instructions in the section below](https://github.com/berkeley-scf/course-site-quarto-lite#instructions-for-course-staff) on how to use this repository.
+For instructors: please see [these instructions in the section below](https://github.com/berkeley-cdss/course-site-quarto-lite#instructions-for-course-staff) on how to use this repository.
 
 
 ## Capabilities of this Quarto-based Template
@@ -70,7 +70,7 @@ In addition to standard SCF instructions for setting up the GitHub organization,
 
 1. Fork this `course-lite-quarto-lite` repository template:
 
-   a. Visit https://github.com/berkeley-scf/course-site-quarto-lite.
+   a. Visit https://github.com/berkeley-cdss/course-site-quarto-lite.
 
    b. Above the file list click **Use this template** and then **Create a new repository**. This will then bring you to a screen where you'll configure the new repository.
 
