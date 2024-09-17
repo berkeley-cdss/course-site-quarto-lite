@@ -1,15 +1,5 @@
 [
   {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
-    "section": "",
-    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
-    "crumbs": [
-      "License"
-    ]
-  },
-  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
@@ -27,6 +17,16 @@
     "text": "About Stat 999\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus dui, euismod vel tellus sit amet, maximus fringilla risus. Cras nec maximus leo. Fusce sit amet tortor pellentesque, hendrerit odio vitae, dictum lorem. Nunc sed nunc nisl. Cras augue tortor, ultrices ut luctus non, dictum nec magna. Cras vel ex purus. In blandit est non finibus dignissim. Donec vehicula, nisi quis rutrum faucibus, est turpis ultrices nibh, quis rutrum diam nibh tempus nulla. Vestibulum malesuada consectetur ex in vestibulum.\n\nGoals\n\nGoal 1\nGoal 2\nGoal 3\n\n\n\nPrerequisites\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus dui, euismod vel tellus sit amet, maximus fringilla risus. Cras nec maximus leo. Fusce sit amet tortor pellentesque, hendrerit odio vitae, dictum lorem. Nunc sed nunc nisl. Cras augue tortor, ultrices ut luctus non, dictum nec magna. Cras vel ex purus. In blandit est non finibus dignissim. Donec vehicula, nisi quis rutrum faucibus, est turpis ultrices nibh, quis rutrum diam nibh tempus nulla. Vestibulum malesuada consectetur ex in vestibulum.",
     "crumbs": [
       "Syllabus"
+    ]
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+    "crumbs": [
+      "License"
     ]
   },
   {
