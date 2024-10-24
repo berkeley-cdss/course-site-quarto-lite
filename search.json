@@ -20,13 +20,13 @@
     ]
   },
   {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Department 999: Generic Class",
     "section": "",
-    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\n\nNo matching items\n\n\nInsert text about the class here.",
     "crumbs": [
-      "License"
+      "Home"
     ]
   },
   {
@@ -40,13 +40,13 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Department 999: Generic Class",
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
     "section": "",
-    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\n\nNo matching items\n\n\nInsert text about the class here.",
+    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
     "crumbs": [
-      "Home"
+      "License"
     ]
   }
 ]
