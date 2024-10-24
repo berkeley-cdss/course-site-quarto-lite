@@ -4,7 +4,7 @@ project:
 website:
   sidebar:
     style: docked
-    title: "Stat 999"
+    title: "Dept 999"
     logo: assets/stat_bear.png
     contents:
       - href: index.qmd
