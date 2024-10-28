@@ -6,5 +6,8 @@
   color: green
 - button: Gradescope
   link: https://berkeley.edu
-  color: orange
+  color: red
+- button: bCourses
+  link: https://berkeley.edu
+  color: blue
 
