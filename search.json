@@ -20,16 +20,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Department 999: Generic Class",
-    "section": "",
-    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\n  bCourses\n\n\nNo matching items\n\n\nInsert text about the class here.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "Syllabus",
@@ -47,6 +37,16 @@
     "text": "About Department 999\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus dui, euismod vel tellus sit amet, maximus fringilla risus. Cras nec maximus leo. Fusce sit amet tortor pellentesque, hendrerit odio vitae, dictum lorem. Nunc sed nunc nisl. Cras augue tortor, ultrices ut luctus non, dictum nec magna. Cras vel ex purus. In blandit est non finibus dignissim. Donec vehicula, nisi quis rutrum faucibus, est turpis ultrices nibh, quis rutrum diam nibh tempus nulla. Vestibulum malesuada consectetur ex in vestibulum.\n\nGoals\n\nGoal 1\nGoal 2\nGoal 3\n\n\n\nPrerequisites\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus dui, euismod vel tellus sit amet, maximus fringilla risus. Cras nec maximus leo. Fusce sit amet tortor pellentesque, hendrerit odio vitae, dictum lorem. Nunc sed nunc nisl. Cras augue tortor, ultrices ut luctus non, dictum nec magna. Cras vel ex purus. In blandit est non finibus dignissim. Donec vehicula, nisi quis rutrum faucibus, est turpis ultrices nibh, quis rutrum diam nibh tempus nulla. Vestibulum malesuada consectetur ex in vestibulum.",
     "crumbs": [
       "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Department 999: Generic Class",
+    "section": "",
+    "text": "Ed\n\n  DataHub\n\n  Gradescope\n\n  bCourses\n\n\nNo matching items\n\n\nInsert text about the class here.",
+    "crumbs": [
+      "Home"
     ]
   }
 ]
