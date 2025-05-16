@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://berkeley-cdss.github.io/course-site-quarto-lite/license.html</loc>
-    <lastmod>2024-12-26T22:28:39.550Z</lastmod>
-  </url>
-  <url>
-    <loc>https://berkeley-cdss.github.io/course-site-quarto-lite/staff.html</loc>
-    <lastmod>2024-12-26T22:28:39.550Z</lastmod>
-  </url>
-  <url>
     <loc>https://berkeley-cdss.github.io/course-site-quarto-lite/syllabus.html</loc>
-    <lastmod>2024-12-26T22:28:39.550Z</lastmod>
+    <lastmod>2025-05-16T21:14:05.323Z</lastmod>
   </url>
   <url>
     <loc>https://berkeley-cdss.github.io/course-site-quarto-lite/index.html</loc>
-    <lastmod>2024-12-26T22:28:39.550Z</lastmod>
+    <lastmod>2025-05-16T21:14:05.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://berkeley-cdss.github.io/course-site-quarto-lite/staff.html</loc>
+    <lastmod>2025-05-16T21:14:05.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://berkeley-cdss.github.io/course-site-quarto-lite/license.html</loc>
+    <lastmod>2025-05-16T21:14:05.323Z</lastmod>
   </url>
 </urlset>
