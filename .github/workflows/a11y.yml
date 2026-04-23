@@ -9,9 +9,6 @@ env:
 
 jobs:
   axe-audit:
-    if: |
-      (github.event_name == 'page_build' && github.event.build.status == 'built') ||
-      github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     
     steps:
