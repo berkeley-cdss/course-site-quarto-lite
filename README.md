@@ -8,6 +8,7 @@ For instructors: please see [these instructions in the section below](https://gi
 ## Capabilities of this Quarto-based Template
 
 - Create a basic class website by modifying content online at github.com or in a GitHub repository.
+- Accessibility audit of the deployed website.
 
 
 ## Instructions for Course Staff
@@ -110,6 +111,12 @@ In addition to standard SCF instructions for setting up the GitHub organization,
    b. Invite one or more course staff to the team.
 
    c. Enable the team to manage the new repo. Visit https://github.com/berkeley-statXYZ/fall-2024/settings/access choose "Add teams". Type the previously created team name and set the role to `Maintain`. This lets the team members do most things other than managing security or deleting the repo.
+
+## GitHub Actions
+GitHub Actions in this repository run in a chain.
+1. First, `publish.yml` renders changes to source files and places the rendered files in the `gh-pages` branch.
+2. Then, `pages-build-deployment` deploys the rendered changes to the site.
+3. Finally, `a11y.yml` audits the site for accessibility violations.
 
 ### README Content for Actual Class Repositories
 
