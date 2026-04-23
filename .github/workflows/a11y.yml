@@ -1,7 +1,10 @@
 name: Accessibility Checks
 
 on:
-  page_build:
+  workflow_run:
+    workflows: ["pages-build-deployment"]
+    types:
+      - completed
   workflow_dispatch:
 
 env:
