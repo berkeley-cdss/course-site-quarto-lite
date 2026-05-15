@@ -1,5 +1,7 @@
 # course-site-quarto-lite
 
+![Accessibility Score](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/berkeley-cdss/course-site-quarto-lite/badges/a11y-badge.json)
+
 This repository contains a minimal Quarto-based template for class website. You can see a preview of it at [https://berkeley-cdss.github.io/course-site-quarto-lite](https://berkeley-cdss.github.io/course-site-quarto-lite). This template is intended to be forked and altered for other courses.
 
 For instructors: please see [these instructions in the section below](https://github.com/berkeley-cdss/course-site-quarto-lite#instructions-for-course-staff) on how to use this repository.
