@@ -4,7 +4,7 @@
 set -e
 
 echo "Building Quarto site..."
-quarto render
+quarto render --profile dev
 
 echo "Starting local server..."
 nohup npx http-server _site -p 3000 -s > /dev/null 2>&1 &
