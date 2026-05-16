@@ -30,7 +30,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 1
-          path: ../main-scripts
+          path: ${{ github.workspace }}/../main-scripts
 
       # 3. Setup Node.js (for Axe and http-server)
       - name: Set up Node.js
@@ -102,6 +102,6 @@ jobs:
         run: |
           # 1. Calculate the score and create the JSON file
           node ../main-scripts/.github/scripts/generate-badge.js
-          
+
           # 2. Push to the orphaned 'badges' branch using Force Push
           bash ../main-scripts/.github/scripts/push-badge.sh
