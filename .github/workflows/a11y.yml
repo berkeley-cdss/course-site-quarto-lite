@@ -26,11 +26,10 @@ jobs:
 
       # 2. Fetch main branch for scripts
       - name: Checkout main for scripts
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 1
-          path: ${{ github.workspace }}/../main-scripts
+        run: |
+          git clone --depth 1 --branch main \
+            https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git \
+            $GITHUB_WORKSPACE/../main-scripts
 
       # 3. Setup Node.js (for Axe and http-server)
       - name: Set up Node.js
@@ -101,7 +100,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 1. Calculate the score and create the JSON file
-          node ../main-scripts/.github/scripts/generate-badge.js
+          node $GITHUB_WORKSPACE/../main-scripts/.github/scripts/generate-badge.js
 
           # 2. Push to the orphaned 'badges' branch using Force Push
-          bash ../main-scripts/.github/scripts/push-badge.sh
+          bash $GITHUB_WORKSPACE/../main-scripts/.github/scripts/push-badge.sh
